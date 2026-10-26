@@ -100,6 +100,8 @@ img, svg { flex-shrink: 0; }
 .guide-card p { margin: 0; color: var(--muted); font-size: 15px; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; }
 .chip { font-size: 12.5px; font-weight: 600; color: var(--accent-dark); background: var(--tint); border-radius: 8px; padding: 3px 9px; }
+.group-title { font-size: 24px; margin: 36px 0 14px; color: var(--accent-dark); }
+.group-title:first-child { margin-top: 0; }
 .read { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; color: var(--accent); font-size: 14.5px; }
 
 /* call-to-action band */
